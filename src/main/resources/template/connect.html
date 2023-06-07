@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <link rel="stylesheet" href="connectionStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="connection_window">
+    <div class="connection_form">
+        <form class="" action="/connection" method="POST">
+<span class="connection_title">
+CONNECTION
+</span>
+            <div class="" data-validate="IP is required">
+                <label>
+                    <input class="connection_input" type="text" name="ip_address" placeholder="IP adress">
+                </label>
+                <span class=""></span>
+            </div>
+            <div class="" data-validate="Port is required">
+                <label>
+                    <input class="connection_input" type="text" name="port" placeholder="Port">
+                </label>
+                <span class=""></span>
+            </div>
+            <div>
+                <button class="connection_confirm" type="submit">Connect</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div id=""></div>
+</body>
+</html>

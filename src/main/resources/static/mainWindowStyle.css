@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+.content
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coordinates_form
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.coordinates_title
+{
+    font-size: 50px;
+}
+
+.XYZ
+{
+    display:inline-block;
+    margin-right: 25px;
+}
+
+.ABC
+{
+    display:inline-block;
+    margin-left: 25px;
+}
+
+.coordinates_label
+{
+    font-size: 20px;
+}
+
+.coordinates_inputs
+{
+    display:inline-block;
+}
+
+.coordinates_input
+{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    margin: 5px;
+    width: 75px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.angles_input
+{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    margin: 5px;
+    width: 75px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.send_coordinates
+{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 20px;
+    background-color: #ff7c00;
+    background-clip: padding-box;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.send_coordinates:hover
+{
+    background-color: #e56f00;
+}
+
+.get_coordinates
+{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 20px;
+    background-color: #ff7c00;
+    background-clip: padding-box;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.get_coordinates:hover
+{
+    background-color: #e56f00;
+}

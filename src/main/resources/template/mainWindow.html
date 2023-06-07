@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <link rel="stylesheet" href="mainWindowStyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap" rel="stylesheet">
+  <!--    <link href="../static/style.css" th:href="@{/style.css}" rel="stylesheet"/>-->
+</head>
+<body>
+<div class="content">
+  <form class="coordinates_form" action="/mainWindow" method="POST">
+      <span class="coordinates_title">
+      POSITION
+      </span> <br>
+    <div class = "XYZ">
+      <label class = "coordinates_label">
+        X:
+        <div class ="coordinates_inputs" data-validate="">
+          <input class="coordinates_input" type="text" name="x" id="x" th:placeholder="${x}">
+          <span class=""></span>
+        </div>
+      </label>
+      <br>
+      <label class = "coordinates_label">
+        Y:
+        <div class ="coordinates_inputs" data-validate="">
+          <input class="coordinates_input" type="text" name="y" th:placeholder="${y}">
+          <span class=""></span>
+        </div>
+      </label>
+      <br>
+      <label class = "coordinates_label">
+        Z:
+        <div class = "coordinates_inputs" data-validate="">
+          <input class="coordinates_input" type="text" name="z" th:placeholder="${z}">
+          <span class=""></span>
+        </div>
+      </label>
+    </div>
+
+    <div class = "ABC">
+      <label class = "coordinates_label">
+        A:
+        <div class = "coordinates_inputs" data-validate="">
+          <input class="angles_input" type="text" name="a" th:placeholder="${a}">
+          <span class=""></span>
+        </div>
+      </label>
+      <br>
+      <label class = "coordinates_label">
+        B:
+        <div class = "coordinates_inputs" data-validate="">
+          <input class="angles_input" type="text" name="b" th:placeholder="${b}">
+          <span class=""></span>
+        </div>
+      </label>
+      <br>
+      <label class = "coordinates_label">
+        C:
+        <div class = "coordinates_inputs" data-validate="">
+          <input class="angles_input" type="text" name="c" th:placeholder="${c}">
+          <span class=""></span>
+        </div>
+      </label>
+    </div>
+
+    <div>
+      <button type="submit" class="send_coordinates">Send coordinates</button>
+    </div>
+    <div>
+      <button type="submit" class="get_coordinates">Get coordinates</button>
+    </div>
+  </form>
+<!--  <form class="coordinates_form" action="/mainWindow" method="POST">-->
+<!--    -->
+<!--  </form>-->
+</div>
+<div id=""></div>
+</body>
+</html>
